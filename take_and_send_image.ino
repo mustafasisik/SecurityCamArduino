@@ -207,7 +207,7 @@ void setup() {
       delay(1000);    
     }  
   }
-  Firebase.begin("gezginim-uygulamam.firebaseio.com", "E9sAgtEG6llKHHcyxJ7zkQGenaOCnL79BgLVnVqc");
+  Firebase.begin("firebase_link", "firebase_secret_key");
 }
 
 esp_err_t _http_event_handler(esp_http_client_event_t *evt)
